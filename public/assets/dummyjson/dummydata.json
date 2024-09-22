@@ -1,0 +1,152 @@
+{
+    "user": [
+        {
+            "username": "admin",
+            "password": "12@34",
+            "data": {
+                "referrer": "4,665",
+                "shared": "5,444",
+                "distributed": "4,444",
+                "editdscription": "Morbi sed ante efficitur, pellentesque justo sit amet, feugiat mi. Pellentesque tincidunt dui ut varius luctus.",
+                "tablelist": [
+                    {
+                        "id": 1,
+                        "image": "",
+                        "name": "Vinod Joy",
+                        "price": "Rs 5,100",
+                        "level1": 30,
+                        "level2": 40,
+                        "levels": "level 1",
+                        "dateplace": "31 July 2023 | Bangalore"
+                    },
+                    {
+                        "id": 2,
+                        "image": "",
+                        "name": "Raj Mohan",
+                        "price": "Rs 1000",
+                        "level1": 30,
+                        "level2": 20,
+                        "levels": "level 2",
+                        "dateplace": "28 July 2023 | Bangalore"
+                    },
+                    {
+                        "id": 3,
+                        "image": "",
+                        "name": "Kamal",
+                        "price": "Rs 2000",
+                        "level1": 20,
+                        "level2": 50,
+                        "levels": "level 2",
+                        "dateplace": "15 July 2023 | Bangalore"
+                    },
+                    {
+                        "id": 4,
+                        "image": "",
+                        "name": "Arjun",
+                        "price": "Rs 2200",
+                        "levels": "level 1",
+                        "level1": 30,
+                        "level2": 90,
+                        "dateplace": "1 July 2023 | Bangalore"
+                    }
+                ],
+                "referraldetails": [
+                    {
+                        "name": "Vinod Joy",
+                        "count": 2,
+                        "price": "Rs 1000",
+                        "member": "300 members",
+                        "layers": {
+                            "referraldata": []
+                        }
+                    },
+                    {
+                        "name": "Raj Mohan",
+                        "count": 2,
+                        "price": "Rs 2000",
+                        "member": "34 members",
+                        "layers": {
+                            "referraldata": [
+                                {
+                                    "name": "Vinod Joy",
+                                    "count": 1,
+                                    "price": "Rs 1000",
+                                    "member": "300 members",
+                                    "layers": {
+                                        "layer_Count": 1
+                                    }
+                                },
+                                {
+                                    "name": "Mathew",
+                                    "count": 1,
+                                    "price": "Rs 1000",
+                                    "member": "300 members",
+                                    "layerone": {
+                                        "referraldatas": [
+                                            {
+                                                "name": "Joy",
+                                                "count": 1,
+                                                "price": "Rs 100",
+                                                "member": "30 members",
+                                                "layers": {
+                                                    "layer_Count": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "john",
+                                                "count": 1,
+                                                "price": "Rs 1000",
+                                                "member": "3members",
+                                                "layers": {
+                                                    "layer_Count": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Sathish",
+                        "count": 3,
+                        "price": "Rs 2200",
+                        "member": "12 members",
+                        "layers": {
+                            "referraldata": []
+                        }
+                    },
+
+                    {
+                        "name": "Mohan",
+                        "count": 3,
+                        "price": "Rs 5,100",
+                        "member": "5 members",
+                        "layers": {
+                            "referraldata": [
+                                {
+                                    "name": "Jonny",
+                                    "count": 1,
+                                    "price": "Rs 2000",
+                                    "member": "0 members",
+                                    "layers": {
+                                        "layer_Count": 1
+                                    }
+                                },
+                                {
+                                    "name": "kavin",
+                                    "count": 1,
+                                    "price": "Rs 100",
+                                    "member": "30 members",
+                                    "layers": {
+                                        "layer_Count": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
